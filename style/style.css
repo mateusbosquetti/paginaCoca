@@ -68,6 +68,10 @@
     margin-right: 50%;
     margin-top: 5.5%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
 }
 
 .disponivelEm {
@@ -594,6 +598,8 @@ footer hr {
     display: none;
 }
 
+
+
 @media (min-width: 900px) {
 
     .pDesktop {
@@ -644,6 +650,53 @@ footer hr {
         display: none;
     }
 
+    .titulo1 {
+        font-size: 96px;
+        text-transform: uppercase;
+        margin-bottom: 2%;
+    }
+    .pCinza {
+        font-size: 18px;
+        margin-right: 45%;
+        line-height: 32px;
+        margin-bottom: 2.5%;
+    }
+
+    .retanguloCircularAzul {
+        padding: 0%;
+    }
+    .retanguloCircularCinza {
+        padding: 0%;
+    }
+
+    .linhaMarcaDagua {
+        display: none;
+    }
+    
+    .imagemMenor {
+        display: none;
+    }
+
+    .duasPartes {
+        display: flex;
+    }
+
+    .parteEsquerda {
+        margin-right: 30%;
+    }
+
+    .retangulos2 {
+        display: flex;
+        white-space: nowrap;
+        padding: 1% 4%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 7.5%;
+        margin-right: 80%;
+    }
+
+    
 }
 
 @media (min-width: 1920px) {
@@ -665,4 +718,5 @@ footer hr {
         display: flex;
         margin-top: 4.5%;
     }
+    
 }
