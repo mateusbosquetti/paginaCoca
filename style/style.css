@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+.headerAzul {
+    background-color: #0258F8;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    text-align: center;
+}
+
+.imagemHeader {
+    display: flex;
+    padding-left: 5%;
+}
+
+.barras4 {
+    margin-left: 55%;
+    margin-top: 3.5%;
+}
+
+.SecaoComMargem {
+    padding-left: 5%;
+    padding-right: 2.5%;
+}
+
+.titulo1 {
+    padding-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 205%;
+}
+
+.pCinza {
+    color: #7E8492;
+    font-size: 15px;
+}
+
+.pCinzaMenor {
+    color: #7E8492;
+    font-size: 13.5px;
+    margin-right: 20%;
+}
+
+.retanguloCircularAzul {
+    background-color: #0258F8;
+    color: #fff;
+    border-radius: 25px;
+    padding-top: 4.5%;
+    padding-bottom: 4.5%;
+    margin-top: 8%;
+    margin-right: 50%;
+    text-align: center;
+}
+
+.retanguloCircularCinza {
+    border-radius: 25px;
+    border: solid #F5F5F5 1px;
+    color: #0258F8;
+    padding: 3.5%;
+    margin-right: 50%;
+    margin-top: 5.5%;
+    text-align: center;
+}
+
+.disponivelEm {
+    margin-top: 10%;
+}
+
+.linhaPaises {
+    display: flex;
+}
+
+.paises {
+    display: flex;
+    margin-top: 4.5%;
+}
+
+.pais {
+    padding-left: 10%;
+}
+
+.retanguloCircularCinza2 {
+    border-radius: 25px;
+    border: solid #F5F5F5 1px;
+    color: black;
+    text-align: center;
+    margin-top: 3.5%;
+    margin-left: 18%;
+    padding-top: 2%;
+    padding-right: 1.5%;
+    height: 20px;
+}
+
+.linhaMarcaDagua {
+    display: flex;
+    margin-top: 3%;
+    padding-bottom: 5%;
+}
+
+.marcaDagua {
+    margin-top: 10%;
+    margin-left: 65%;
+    position: absolute;
+}
+
+hr {
+    margin-right: 5%;
+    background: #EDEDED;
+
+}
+
+.linha {
+    margin-top: 10%;
+    opacity: 0.3;
+}
+
+.imagemSobrepondo {
+    margin-top: 5%;
+}
+
+.imagemMaior {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+}
+
+.imagemMenor {
+    position: absolute;
+    top: 740px;
+    left: 27px;
+}
+
+.parcerias {
+    background-color: #FAFBFA;
+    margin-top: 10%;
+}
+
+.parcerias h1 {
+    padding-top: 15%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 8.5%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.parceiriaLinha {
+    padding-left: 14%;
+    padding-bottom: 11%;
+}
+
+.imgParceria {
+    padding: 1.5%;
+}
+
+.retanguloCircularAzulMenor {
+    background-color: #0258F8;
+    color: #fff;
+    border-radius: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 50%;
+    margin-top: 12%;
+    text-align: center;
+    width: 39.5%;
+
+}
+
+.tituloAntesArtigos {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    font-size: 32px;
+}
+
+.artigos {
+    margin-top: 12.5%;
+    align-content: center;
+    width: 334px;
+}
+
+.tituloArtigo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linhaArtigo {
+    margin: 17.5px 0;
+    opacity: 0.2;
+}
+
+/* SEÇÃO PRETA */
+/* cima direita baixo esquerda */
+
+.SecaoPreta {
+    background-color: #1A1A1A;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    padding: 13.5% 5.5% 13.5% 5.5%;
+
+}
+
+.tituloSecaoPreta {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 10%;
+}
+
+.subtituloSecaoPreta {
+    color: #7E8492;
+    font-size: 16px;
+    line-height: 162.5%;
+}
+
+.ArtigosPretos {
+    margin-top: 15%;
+}
+
+.ArtigoPreto {
+    border-radius: 16px;
+    background: #212121;
+    padding: 8%;
+    margin-bottom: 7%;
+}
+
+.tituloDoArtigoPreto {
+    font-size: 24px;
+    letter-spacing: -0.24px;
+    color: #fff;
+    margin: 5.5% 0;
+    padding-right: 25%;
+}
+
+/* FIM DA SEÇÃO PRETA
+INICIO DA SECAO DE PACOTES  */
+
+.SecaoPacotes {
+    margin: 0 20px;
+}
+
+.tituloPacotes {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: -0.36px;
+    margin-bottom: 8%;
+}
+
+.subtituloPacotes {
+    color: #7E8492;
+    font-size: 16px;
+    text-align: center;
+    line-height: 162.5%;
+}
+
+.opcaoMensalAnual {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 18px;
+    line-height: 120%;
+    margin-top: 10%;
+    margin-left: 16%;
+    margin-bottom: 2%;
+}
+
+.mensal {
+    font-size: 18px;
+    line-height: 120%;
+}
+
+.anual {
+    font-size: 18px;
+    line-height: 120%;
+    margin-left: 7.5%;
+}
+
+.retanguloCircularAzulMuitoMenor {
+    border-radius: 100px;
+    background-color: #0258F8;
+    color: #FFF;
+    text-align: center;
+    margin: 0 35%;
+    padding: 1.7% 0%;
+    line-height: 150%;
+    margin-bottom: 15%;
+}
+
+.flecha {
+    width: 33.133px;
+    height: 40.194px;
+    margin-left: 62.5%;
+    position: absolute;
+}
+
+
+.bordaCinza {
+    border: 1px solid #EDEDED;
+    background-color: #FFF;
+    padding: 40px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 10%;
+}
+
+.bordaCinza .iconeBordaCinza {
+    border-radius: 100px;
+    background-color: #F5F5F5;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4.5%;
+}
+
+.bordaCinza .tituloDosPacotes {
+    font-size: 22px;
+    margin-bottom: 3.5%;
+    color: black;
+}
+
+.bordaCinza .subtituloDosPacotes {
+    color: #7E8492;
+    font-size: 15.5px;
+    margin-bottom: 7.5%;
+}
+
+.mesmaLinha {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 5%;
+}
+
+.preco {
+    font-size: 50px;
+    margin-right: 6%;
+}
+
+.bordaCinza .periodoPreco {
+    color: #7E8492;
+    font-size: 16px;
+}
+
+.listaPacotes {
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 5%;
+}
+
+.mesmaLinha2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.mesmaLinha2 img {
+    margin-right: 2%;
+}
+
+.mesmaLinha2 h6 {
+    font-size: 15px;
+}
+
+.bordaCinza .botaoBorda {
+    text-align: center;
+    border: solid 1px #EDEDED;
+    border-radius: 100px;
+    padding: 5% 2.5%;
+    margin: 10% 20% 0% 20%;
+}
+
+.bordaAzul {
+    border: 1px solid #EDEDED;
+    background-color: #0258F8;
+    border-radius: 16px;
+    padding: 40px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 10%;
+}
+
+.bordaAzul .iconeBordaCinza {
+    border-radius: 100px;
+    background-color: #fff;
+    display: flex;
+    height: 20px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4.5%;
+
+}
+
+.bordaAzul .tituloDosPacotes {
+    font-size: 22px;
+    margin-bottom: 3.5%;
+}
+
+.bordaAzul .subtituloDosPacotes {
+    font-size: 15.5px;
+    margin-bottom: 7.5%;
+}
+
+.bordaAzul {
+    color: #FFF;
+}
+
+.bordaAzul .botaoBorda {
+    color: black;
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 100px;
+    padding: 5% 2.5%;
+    margin: 10% 20% 0% 20%;
+}
+
+.icones2 {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+}
+
+.iconeSecundario {
+    border-radius: 100px;
+    background-color: #fff;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 55%;
+}
+
+/* comentario */
+
+.comentario {
+    margin-top: 30%;
+}
+
+.comentario h3 {
+    font-size: 32px;
+    margin-bottom: 5%;
+    line-height: 120%;
+    /* 38.4px */
+    letter-spacing: -0.32px;
+}
+
+.aspasComentario {
+    display: flex;
+    margin-top: 7.5%;
+}
+
+.aspasComentario h4 {
+    font-size: 24px;
+    margin-left: 3%;
+    margin-right: 10%;
+}
+
+.subtituloComentario {
+    font-size: 16px;
+    color: #7E8492;
+    margin-left: 13.6%;
+    margin-right: 5%;
+    margin-top: 7%;
+}
+
+.perfilComentado {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 8%;
+    margin-left: 2%;
+}
+
+.perfilComentadoDentro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.perfilComentado img{
+    border-radius: 100px;
+}
+
+.perfilComentadoDentro h5 {
+    font-size: 16px;
+}
+
+.perfilComentadoDentro p {
+    color: #7E8492;
+}
+
+.setasDuplas {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 42.5%;
+    gap: 24px;
+}
+
+footer {
+    background-color: #1D1E25;
+    color: #FFF;
+    padding-top: 3%;
+    margin-top: 12%;
+    padding-bottom: 5%;
+}
+
+.imagemFooter {
+    margin: 10% 5%;
+    background-image: url(/style/img/imagemFooter.png);
+    padding: 10% 2%;
+    background-size: cover;
+}
+
+footer .botaoBorda {
+    text-align: center;
+    border: solid 1px #EDEDED;
+    border-radius: 100px;
+    padding: 5% 2.5%;
+    margin: 10% 20% 20% 20%;
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.imagemFooter h1{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 8%;
+}
+
+.imagemFooter P {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 2%;
+}
+
+.logoPreto {
+    margin: 20% 0% 5% 5%
+}
+
+.redesSociais {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.pMargem {
+    margin: 0 5%;
+}
+
+footer hr {
+    margin: 10% 4%;
+    border: solid 1px #7E8492;
+}
+
+.redesSociais {
+    margin: 0 25%;
+}
+
+.termos {
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 10%;
+}
+
+.paises-2{
+    display: none;
+}
+
+@media (min-width: 1920px){
+    .paises{
+        display: none;
+    }
+
+    .paises-2{
+        display: flex;
+        margin-top: 4.5%; 
+    }
+}
