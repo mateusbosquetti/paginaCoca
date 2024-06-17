@@ -490,7 +490,7 @@ INICIO DA SECAO DE PACOTES  */
     gap: 4px;
 }
 
-.perfilComentado img{
+.perfilComentado img {
     border-radius: 100px;
 }
 
@@ -535,7 +535,7 @@ footer .botaoBorda {
     color: black;
 }
 
-.imagemFooter h1{
+.imagemFooter h1 {
     text-align: center;
     font-size: 32px;
     margin-bottom: 8%;
@@ -580,17 +580,89 @@ footer hr {
     margin: 5% 10%;
 }
 
-.paises-2{
+.paises-2 {
     display: none;
 }
 
-@media (min-width: 1920px){
-    .paises{
+/* DESKTOP */
+
+.pDesktop {
+    display: none;
+}
+
+.headerDesktop {
+    display: none;
+}
+
+@media (min-width: 900px) {
+
+    .pDesktop {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .pCelular {
         display: none;
     }
 
-    .paises-2{
+    .headerAzul {
+        padding: 0.5% 0%;
+    }
+
+    .Contato {
+        white-space: nowrap;
+    }
+
+    .headerDesktop {
         display: flex;
-        margin-top: 4.5%; 
+        margin-top: 2%;
+    }
+
+    .headerDesktopDiv1 {
+        display: flex;
+        align-items: center;
+        gap: 10%;
+        margin-left: 5%;
+        font-size: 16px;
+    }
+
+    .headerDesktop .retanguloCircularAzul {
+        padding: 0% 3%;
+        border-radius: 100px;
+        margin: 0% 1% 0% 50%;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .barras4 {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1920px) {
+
+    .headerDesktopDiv1 {
+        font-size: 22px;
+    }
+
+
+    .pDesktop {
+        font-size: 12px;
+    }
+
+    .paises {
+        display: none;
+    }
+
+    .paises-2 {
+        display: flex;
+        margin-top: 4.5%;
     }
 }
