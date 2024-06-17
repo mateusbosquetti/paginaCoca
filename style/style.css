@@ -27,8 +27,10 @@
 }
 
 .SecaoComMargem {
-    padding-left: 5%;
-    padding-right: 2.5%;
+    padding: 0%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: solid black 1px;
 }
 
 .titulo1 {
@@ -188,7 +190,7 @@ hr {
 .artigos {
     margin-top: 12.5%;
     align-content: center;
-    width: 334px;
+
 }
 
 .tituloArtigo {
