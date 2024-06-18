@@ -875,7 +875,7 @@ footer hr {
 
     .ArtigoPretoDeskEsq {
         display: flex;
-        gap: 5%;
+        gap: 2.75%;
     }
 
     .ArtigosPretos {
@@ -885,6 +885,8 @@ footer hr {
     .ArtigoPreto {
         padding: 2% 2.5% 2% 2%;
         max-width: 37%;
+
+        margin-bottom: 2.75%;
     }
 
     .tituloDoArtigoPreto {
@@ -897,6 +899,11 @@ footer hr {
         line-height: 162.5%;
     }
 
+    .antesArtigosPretos p {
+        margin-right: 34%;
+        font-size: 18px;
+    }
+
 }
 
 @media (min-width: 1920px) {
@@ -905,11 +912,7 @@ footer hr {
         font-size: 22px;
     }
 
-
     .pDesktop {
         font-size: 12px;
     }
-
-
-
 }
