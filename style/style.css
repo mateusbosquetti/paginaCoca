@@ -806,6 +806,7 @@ footer hr {
         padding-bottom: 5%;
         gap: 2%;
     }
+
     .parceiriaLinha {
         display: none;
     }
@@ -846,13 +847,54 @@ footer hr {
         max-width: 100%;
     }
 
-    .SecaoComMargem .artigos h4{
+    .SecaoComMargem .artigos h4 {
         font-size: 24px;
+        margin: 1% 0%;
     }
 
-    .SecaoComMargem .artigos p{
+    .SecaoComMargem .artigos p {
         font-size: 18px;
-        margin: 3% 0%;
+        margin: 3% 27.5% 0% 0%;
+    }
+
+    .SecaoPreta h1 {
+        font-size: 56px;
+        margin-right: 15%;
+        margin-bottom: 4.5%;
+    }
+
+    .subtituloSecaoPreta {
+        font-size: 18px;
+        margin-right: 33.5%;
+
+    }
+
+    .SecaoPreta {
+        padding-top: 7.5%;
+    }
+
+    .ArtigoPretoDeskEsq {
+        display: flex;
+        gap: 5%;
+    }
+
+    .ArtigosPretos {
+        margin-top: 6.5%;
+    }
+
+    .ArtigoPreto {
+        padding: 2% 2.5% 2% 2%;
+        max-width: 37%;
+    }
+
+    .tituloDoArtigoPreto {
+        margin: 3.5% 29% 3.5% 0%;
+    }
+
+    .subtituloSecaoPreta {
+        margin-right: 0%;
+        font-size: 16px;
+        line-height: 162.5%;
     }
 
 }
