@@ -210,9 +210,7 @@ hr {
 .SecaoPreta {
     background-color: #1A1A1A;
     margin-top: 10%;
-    margin-bottom: 15%;
     padding: 13.5% 5.5% 13.5% 5.5%;
-
 }
 
 .tituloSecaoPreta {
@@ -258,6 +256,7 @@ INICIO DA SECAO DE PACOTES  */
     font-size: 36px;
     letter-spacing: -0.36px;
     margin-bottom: 8%;
+    padding-top: 8%;
 }
 
 .subtituloPacotes {
@@ -316,6 +315,9 @@ INICIO DA SECAO DE PACOTES  */
     position: absolute;
 }
 
+.corDiferente {
+    background-color: #FAFBFA;
+}
 
 .bordaCinza {
     border: 1px solid #EDEDED;
@@ -412,7 +414,6 @@ INICIO DA SECAO DE PACOTES  */
     padding: 8px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 4.5%;
 
 }
 
@@ -443,6 +444,7 @@ INICIO DA SECAO DE PACOTES  */
     display: flex;
     color: black;
     justify-content: space-between;
+    margin-bottom: 4.5%;
 }
 
 .iconeSecundario {
@@ -452,7 +454,6 @@ INICIO DA SECAO DE PACOTES  */
     padding: 8px;
     justify-content: center;
     align-items: center;
-    position: absolute;
     margin-left: 55%;
 }
 
@@ -873,10 +874,6 @@ footer hr {
 
     }
 
-    .SecaoPreta {
-        padding-top: 7.5%;
-        margin-bottom: 7%;
-    }
 
     .ArtigoPretoDeskEsq {
         display: flex;
@@ -954,18 +951,13 @@ footer hr {
         gap: 2%;
     }
 
-    .bordaAzul {
-        width: 20%;
-    }
+        .bordaAzul {
+            width: 26%;
+        }
 
-    .bordaCinza {
-        width: 20%;
-    }
-
-    .iconeSecundario {
-        display: none;
-    }
-
+        .bordaCinza {
+            width: 26%;
+        }
 }
 
 @media (min-width: 1920px) {
