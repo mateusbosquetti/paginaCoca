@@ -302,7 +302,7 @@ INICIO DA SECAO DE PACOTES  */
     padding: 0%;
     padding: 2% 1%;
     font-size: 14px;
-    margin: 1.25% 41% 0% 41%;
+    margin: 1.25% 41% 15% 41%;
     background-color: #0258F8;
     border-radius: 100px;
     color: #FFF;
@@ -938,7 +938,7 @@ footer hr {
         padding: 0%;
         padding: 0.5% 0%;
         font-size: 14px;
-        margin: 1.25% 46.75% 0% 46.75%
+        margin: 1.25% 46.75% 3.5% 46.75%
     }
 
     .flecha {
@@ -947,6 +947,25 @@ footer hr {
         height: 40.194px;
 
     }
+
+    .pacotes3Desktop {
+        display: flex;
+        justify-content: center;
+        gap: 2%;
+    }
+
+    .bordaAzul {
+        width: 20%;
+    }
+
+    .bordaCinza {
+        width: 20%;
+    }
+
+    .iconeSecundario {
+        display: none;
+    }
+
 }
 
 @media (min-width: 1920px) {
