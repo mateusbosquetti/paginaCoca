@@ -279,8 +279,8 @@ INICIO DA SECAO DE PACOTES  */
     font-size: 18px;
     line-height: 120%;
     margin-top: 10%;
-    margin-left: 16%;
     margin-bottom: 2%;
+    justify-content: center;
 }
 
 .mensal {
@@ -295,20 +295,24 @@ INICIO DA SECAO DE PACOTES  */
 }
 
 .retanguloCircularAzulMuitoMenor {
-    border-radius: 100px;
+    margin: 0%;
+    margin-bottom: 7.5%;
+    justify-content: center;
+    max-width: 100px;
+    padding: 0%;
+    padding: 2% 1%;
+    font-size: 14px;
+    margin: 1.25% 41% 0% 41%;
     background-color: #0258F8;
+    border-radius: 100px;
     color: #FFF;
     text-align: center;
-    margin: 0 35%;
-    padding: 1.7% 0%;
-    line-height: 150%;
-    margin-bottom: 15%;
 }
 
 .flecha {
+    margin: 1% 38% 0% 62%;
     width: 33.133px;
     height: 40.194px;
-    margin-left: 62.5%;
     position: absolute;
 }
 
@@ -871,6 +875,7 @@ footer hr {
 
     .SecaoPreta {
         padding-top: 7.5%;
+        margin-bottom: 7%;
     }
 
     .ArtigoPretoDeskEsq {
@@ -904,6 +909,44 @@ footer hr {
         font-size: 18px;
     }
 
+    .tituloPacotes {
+        font-size: 56px;
+        margin-bottom: 2.35%;
+    }
+
+    .subtituloPacotes {
+        font-size: 18px;
+        margin: 0% 24%;
+    }
+
+    .opcaoMensalAnual {
+        margin: 3% 0% 0% 0%;
+        justify-content: center;
+        font-size: 18px
+    }
+
+    .anual {
+        margin: 0%;
+        padding-left: 2%;
+    }
+
+    .retanguloCircularAzulMuitoMenor {
+        margin: 0%;
+        margin-bottom: 7.5%;
+        justify-content: center;
+        max-width: 80px;
+        padding: 0%;
+        padding: 0.5% 0%;
+        font-size: 14px;
+        margin: 1.25% 46.75% 0% 46.75%
+    }
+
+    .flecha {
+        margin: 1% 40% 0% 53%;
+        width: 33.133px;
+        height: 40.194px;
+
+    }
 }
 
 @media (min-width: 1920px) {
