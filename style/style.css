@@ -622,6 +622,10 @@ footer hr {
     display: none;
 }
 
+.setasDuplasDesktop {
+    display: none;
+}
+
 
 @media (min-width: 900px) {
 
@@ -951,13 +955,75 @@ footer hr {
         gap: 2%;
     }
 
-        .bordaAzul {
-            width: 26%;
-        }
+    .bordaAzul {
+        width: 26%;
+    }
 
-        .bordaCinza {
-            width: 26%;
-        }
+    .bordaCinza {
+        width: 26%;
+    }
+
+    .comentario {
+        margin: 0%;
+    }
+
+    .comentario h3 {
+        margin: 0%;
+    }
+
+    .comentarioDesktop {
+        display: flex;
+        justify-content: space-between;
+        margin: 6.5% 5% 0% 5%;
+    }
+
+    .comentarioDesktop h3 {
+        font-size: 56px;
+        width: 50%;
+    }
+
+    .comentarioDesktop .pCinza {
+        width: 30%;
+    }
+
+    .comentario .comentarioDesktop p {
+        font-size: 16px;
+    }
+
+    .aspasComentario {
+        margin-left: 12.5%;
+        width: 36%;
+        gap: 5%;
+    }
+
+    .aspasComentario h4 {
+        margin: 0%;
+        font-size: 24px;
+    }
+
+    .subtituloComentario {
+        margin: 2% 22.9% 0% 16.75%;
+        font-size: 24px;
+
+    }
+    
+    .perfilComentadoDesktop {
+        display: flex;
+        width: 836px;
+        margin: 0% 22.9% 0% 16%;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+
+    .setasDuplas {
+        display: none;
+    }
+
+    .setasDuplasDesktop {
+        display: flex;
+        gap: 35%;
+    }
 }
 
 @media (min-width: 1920px) {
