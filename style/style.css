@@ -630,6 +630,9 @@ footer hr {
     display: none;
 }
 
+.footerDir {
+    display: none;
+}
 
 @media (min-width: 900px) {
 
@@ -1010,7 +1013,7 @@ footer hr {
         font-size: 24px;
 
     }
-    
+
     .perfilComentadoDesktop {
         display: flex;
         margin: 0% 27% 0% 16%;
@@ -1051,23 +1054,21 @@ footer hr {
     }
 
     footer hr {
-        margin: 5% 0%;
+        margin: 5% 5% 0% 5%;
     }
 
     .redesSociais {
         gap: 30%;
-        justify-content:left;
+        justify-content: left;
         margin: 0%;
     }
 
     .termos {
-        justify-content:left;
+        justify-content: left;
         gap: 20%;
         margin-left: 12.5%;
         white-space: nowrap;
-    }   
-
-    
+    }
 
     .redesSociaisDesktop {
         display: flex;
@@ -1075,10 +1076,59 @@ footer hr {
         margin: 0% 5%;
     }
 
+    .copyright {
+        text-align: end;
+        margin-left: 27.5%;
+    }
+
+    footer {
+        padding-bottom: 0%;
+    }
+
+    .footerDesktop {
+        display: flex;
+        margin: 0% 5%;
+        justify-content: space-between;
+    }
+
+    .footerEsq img {
+        margin: 0%;
+    }
+
+    .footerEsq .pMargem {
+        margin: 15% 0% 0% 0%;
+    }
+
+    .footerEsq {
+        width: 29%;
+    }
+
+    .footerDir {
+        display: flex;
+        width: 50%;
+        gap: 20%;
+    }
+
+    .coluna {
+        line-height: 250%;
+    }
+
+    .coluna p {
+        font-size: 14px;
+        color: #7E8492;
+    }
+
+    .coluna h6 {
+        font-size: 14px;
+        color: white;
+        margin-bottom: 10%;
+    }
 
 
 
-    
+
+
+
 }
 
 @media (min-width: 1920px) {
