@@ -44,6 +44,11 @@
     font-size: 15px;
 }
 
+.parteEsquerda .pCinza {
+    margin-right: 2%;
+    font-size: 16px;
+}
+
 .pCinzaMenor {
     color: #7E8492;
     font-size: 13.5px;
