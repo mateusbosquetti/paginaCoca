@@ -145,7 +145,8 @@ hr {
 
 .imagemMenor {
     position: absolute;
-    top: 740px;
+    top: 755px;
+    max-height: 20%;
     left: 27px;
 }
 
