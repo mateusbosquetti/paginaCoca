@@ -1024,6 +1024,28 @@ footer hr {
         gap: 35%;
         align-items: center;
     }
+
+    .imagemFooter {
+        background-image: url(/style/img/imagemFooterDesktop\ .png);
+        margin: 5% 5%;
+        background-size: cover;
+        padding: 4% 0% 4% 0%;
+        border-radius: 10px;
+    }
+
+    .imagemFooter h1 {
+        font-size: 56px;
+        text-align: center;
+        margin: 3.25% 5%;
+    }
+
+    footer .botaoBorda {
+        padding: 0%;
+        align-items: center;
+        margin: 5% 42% 0% 42%;
+        padding: 1% 0%;
+    }
+    
 }
 
 @media (min-width: 1920px) {
