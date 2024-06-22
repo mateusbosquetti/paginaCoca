@@ -89,6 +89,7 @@
 
 .linhaPaises {
     display: flex;
+    margin-bottom: 1%;
 }
 
 .paises {
@@ -120,7 +121,7 @@
 
 .marcaDagua {
     margin-top: 10%;
-    margin-left: 65%;
+    margin-left: 60%;
     position: absolute;
 }
 
