@@ -53,6 +53,8 @@
     color: #7E8492;
     font-size: 13.5px;
     margin-right: 20%;
+    margin-top: 5%;
+    line-height: 150%;
 }
 
 .retanguloCircularAzul {
@@ -152,7 +154,7 @@ hr {
 
 .parcerias {
     background-color: #FAFBFA;
-    margin-top: 10%;
+    margin: 10% 5% 0% 5%;
 }
 
 .parcerias h1 {
@@ -236,6 +238,11 @@ hr {
     color: #7E8492;
     font-size: 16px;
     line-height: 162.5%;
+    margin-right: 5%;
+}
+
+.ArtigoPreto .subtituloSecaoPreta {
+    margin-right: 0%;
 }
 
 .ArtigosPretos {
@@ -268,7 +275,7 @@ INICIO DA SECAO DE PACOTES  */
     text-align: center;
     font-size: 36px;
     letter-spacing: -0.36px;
-    margin-bottom: 8%;
+    margin: 8% 0%;
     padding-top: 8%;
 }
 
@@ -474,6 +481,7 @@ INICIO DA SECAO DE PACOTES  */
 
 .comentario {
     margin-top: 30%;
+    margin: 0% 5%;
 }
 
 .comentario h3 {
@@ -481,6 +489,10 @@ INICIO DA SECAO DE PACOTES  */
     margin-bottom: 5%;
     line-height: 120%;
     letter-spacing: -0.32px;
+}
+
+.comentario .pCinza {
+    margin-right: 1%;
 }
 
 .aspasComentario {
@@ -899,7 +911,7 @@ footer hr {
     .subtituloSecaoPreta {
         font-size: 18px;
         margin-right: 33.5%;
-
+        line-height: 162.5%;
     }
 
 
@@ -921,12 +933,6 @@ footer hr {
 
     .tituloDoArtigoPreto {
         margin: 3.5% 29% 3.5% 0%;
-    }
-
-    .subtituloSecaoPreta {
-        margin-right: 0%;
-        font-size: 16px;
-        line-height: 162.5%;
     }
 
     .antesArtigosPretos p {
