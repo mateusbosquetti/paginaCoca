@@ -41,7 +41,7 @@
 
 .pCinza {
     color: #7E8492;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .parteEsquerda .pCinza {
@@ -189,7 +189,14 @@ hr {
 .tituloAntesArtigos {
     margin-top: 15%;
     margin-bottom: 5%;
-    font-size: 32px;
+    font-size: 36px;
+}
+
+.subtituloAntesArtigos {
+    font-size: 16px;
+    color: #7E8492;
+    margin-right: 5%;
+    line-height: 26px;
 }
 
 .artigos {
@@ -846,6 +853,10 @@ footer hr {
 
     .ArtigosDesktopEsq {
         max-width: 40%;
+    }
+
+    .subtituloAntesArtigos {
+
     }
 
     .ArtigosDesktopEsq h1 {
