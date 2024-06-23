@@ -145,13 +145,7 @@ hr {
     top: 0px;
     left: 0px;
     border-radius: 10px;
-}
-
-.imagemMenor {
-    position: absolute;
-    top: 755px;
-    max-height: 20%;
-    left: 27px;
+    width: 97%;
 }
 
 .parcerias {
@@ -322,7 +316,7 @@ INICIO DA SECAO DE PACOTES  */
     border-radius: 6.25rem;
     padding: 2% 0%;
     color: white;
-    margin: 1% 38% 0% 38%;
+    margin: 1% 38% 4% 38%;
     font-size: .875rem;
 }
 
@@ -641,10 +635,6 @@ footer hr {
     display: none;
 }
 
-.imagemMenorDesktop {
-    display: none;
-}
-
 .parceiriaLinhaDesktop {
     display: none;
 }
@@ -730,10 +720,6 @@ footer hr {
         padding-right: 20%;
         line-height: 32px;
         margin-bottom: 4.5%;
-    }
-
-    .imagemMenor {
-        display: none;
     }
 
     .duasPartes {
@@ -831,17 +817,6 @@ footer hr {
         position: relative;
         border-radius: 13.5px;
         width: 97%;
-    }
-
-    .imagemMenor {
-        display: none;
-    }
-
-    .imagemMenorDesktop {
-        display: flex;
-        position: absolute;
-        top: 1235px;
-        left: 115px;
     }
 
     .parceiriaLinhaDesktop {
