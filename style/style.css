@@ -1114,7 +1114,7 @@ footer hr {
         display: flex;
         margin: 0% 5%;
         justify-content: space-between;
-        
+
     }
 
     .footerEsq img {
@@ -1174,4 +1174,13 @@ footer hr {
     .pDesktop {
         font-size: .75rem;
     }
+
+    .bordaCinza {
+        width: 22%;
+    }
+
+    .bordaAzul {
+        width: 20%;
+    }
+
 }
