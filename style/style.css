@@ -156,7 +156,8 @@ hr {
 
 .parcerias {
     background-color: #FAFBFA;
-    margin: 10% 5% 0% 5%;
+    margin: 10% 0% 0% 0%;
+    padding: 0% 5%;
 }
 
 .parcerias h1 {
