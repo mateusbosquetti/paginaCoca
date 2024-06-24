@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
- ![Weg](/style/img/weg.png)
+ ![Weg](style/img/weg.png)
   <br>
   Markdownify
   <br>
