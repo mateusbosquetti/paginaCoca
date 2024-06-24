@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-Programação WEB e Mobile
+Projeto Programação WEB e Mobile
   <br>
 <br>
   Centro Weg
