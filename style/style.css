@@ -7,8 +7,14 @@
     font-style: normal;
 }
 
+:root {
+    --cinza: #7E8492;
+    --azul: #0258F8;
+    --fonte1r: 1rem;
+  }
+
 .headerAzul {
-    background-color: #0258F8;
+    background-color: var(--azul);
     color: #fff;
     font-size: 0.75rem;
     padding-top: 1.5%;
@@ -41,17 +47,17 @@
 }
 
 .pCinza {
-    color: #7E8492;
-    font-size: 1rem;
+    color: var(--cinza);
+    font-size: var(--fonte1r);
 }
 
 .parteEsquerda .pCinza {
     margin-right: 2%;
-    font-size: 1rem;
+    font-size: var(--fonte1r);
 }
 
 .pCinzaMenor {
-    color: #7E8492;
+    color: var(--cinza);
     font-size: .8438rem;
     margin-right: 20%;
     margin-top: 5%;
@@ -59,7 +65,7 @@
 }
 
 .retanguloCircularAzul {
-    background-color: #0258F8;
+    background-color: var(--azul);;
     color: #fff;
     border-radius: 25px;
     padding-top: 4.5%;
@@ -72,7 +78,7 @@
 .retanguloCircularCinza {
     border-radius: 25px;
     border: solid #F5F5F5 1px;
-    color: #0258F8;
+    color: var(--azul);;
     padding: 3.5%;
     margin-right: 50%;
     margin-top: 5.5%;
@@ -174,7 +180,7 @@ hr {
 }
 
 .retanguloCircularAzulMenor {
-    background-color: #0258F8;
+    background-color: var(--azul);;
     color: #fff;
     border-radius: 30px;
     padding-top: 5%;
@@ -193,8 +199,8 @@ hr {
 }
 
 .subtituloAntesArtigos {
-    font-size: 1rem;
-    color: #7E8492;
+    font-size: var(--fonte1r);
+    color: var(--cinza);
     margin-right: 5%;
     line-height: 26px;
 }
@@ -233,8 +239,8 @@ hr {
 }
 
 .subtituloSecaoPreta {
-    color: #7E8492;
-    font-size: 1rem;
+    color: var(--cinza);
+    font-size: var(--fonte1r);
     line-height: 162.5%;
     margin-right: 5%;
 }
@@ -278,8 +284,8 @@ INICIO DA SECAO DE PACOTES  */
 }
 
 .subtituloPacotes {
-    color: #7E8492;
-    font-size: 1rem;
+    color: var(--cinza);
+    font-size: var(--fonte1r);
     text-align: center;
     line-height: 162.5%;
 }
@@ -312,7 +318,7 @@ INICIO DA SECAO DE PACOTES  */
 }
 
 .retanguloCircularAzulMuitoMenor {
-    background-color: #0258F8;
+    background-color: var(--azul);;
     text-align: center;
     border-radius: 6.25rem;
     padding: 2% 0%;
@@ -360,7 +366,7 @@ INICIO DA SECAO DE PACOTES  */
 }
 
 .bordaCinza .subtituloDosPacotes {
-    color: #7E8492;
+    color: var(--cinza);
     font-size: .9688rem;
     margin-bottom: 7.5%;
 }
@@ -377,12 +383,12 @@ INICIO DA SECAO DE PACOTES  */
 }
 
 .bordaCinza .periodoPreco {
-    color: #7E8492;
-    font-size: 1rem;
+    color: var(--cinza);
+    font-size: var(--fonte1r);
 }
 
 .listaPacotes {
-    font-size: 1rem;
+    font-size: var(--fonte1r);
     line-height: 150%;
     margin-bottom: 5%;
 }
@@ -411,7 +417,7 @@ INICIO DA SECAO DE PACOTES  */
 
 .bordaAzul {
     border: 1px solid #EDEDED;
-    background-color: #0258F8;
+    background-color: var(--azul);;
     border-radius: 16px;
     padding: 40px 24px;
     align-items: flex-start;
@@ -500,8 +506,8 @@ INICIO DA SECAO DE PACOTES  */
 }
 
 .subtituloComentario {
-    font-size: 1rem;
-    color: #7E8492;
+    font-size: var(--fonte1r);
+    color: var(--cinza);
     margin-left: 13.6%;
     margin-right: 5%;
     margin-top: 7%;
@@ -528,11 +534,11 @@ INICIO DA SECAO DE PACOTES  */
 }
 
 .perfilComentadoDentro h5 {
-    font-size: 1rem;
+    font-size: var(--fonte1r);
 }
 
 .perfilComentadoDentro p {
-    color: #7E8492;
+    color: var(--cinza);
 }
 
 .setasDuplas {
@@ -575,7 +581,7 @@ footer .botaoBorda {
 }
 
 .imagemFooter P {
-    font-size: 1rem;
+    font-size: var(--fonte1r);
     text-align: center;
     padding: 0 2%;
 }
@@ -598,7 +604,7 @@ footer .botaoBorda {
 
 footer hr {
     margin: 10% 4%;
-    border: solid 1px #7E8492;
+    border: solid 1px var(--cinza);
 }
 
 .redesSociais {
@@ -659,6 +665,10 @@ footer hr {
         margin: 0%;
     }
 
+    .linha {
+        margin-top: 3.5%;
+    }
+
     .linhaMarcaDagua{
         display: none;
     }
@@ -704,7 +714,7 @@ footer hr {
         align-items: center;
         gap: 10%;
         margin-left: 5%;
-        font-size: 1rem;
+        font-size: var(--fonte1r);
     }
 
     .headerDesktop .retanguloCircularAzul {
@@ -744,6 +754,7 @@ footer hr {
 
     .duasPartes {
         display: flex;
+        justify-content: space-between;
     }
 
     .retangulos2 {
@@ -766,11 +777,6 @@ footer hr {
         margin: 0%;
     }
 
-    .paises-2 {
-        display: flex;
-        margin-top: 4.5%;
-    }
-
     .parteEsquerda {
         max-width: 800px;
     }
@@ -790,6 +796,8 @@ footer hr {
         align-items: center;
         white-space: nowrap;
         margin-top: 30%;
+        display: flex;
+        margin-top: 4.5%;
     }
 
     .paises-2 h4 {
@@ -868,7 +876,7 @@ footer hr {
     }
 
     .retanguloCircularAzulMenor {
-        font-size: 1rem;
+        font-size: var(--fonte1r);
         padding: 3.5% 0%;
         max-width: 27.5%;
     }
@@ -896,7 +904,7 @@ footer hr {
     }
 
     .subtituloSecaoPreta {
-        font-size: 1rem;
+        font-size: var(--fonte1r);
         line-height: 162.5%;
     }
 
@@ -927,7 +935,7 @@ footer hr {
 
     .tituloPacotes {
         font-size: 3.5rem;
-        margin-bottom: 2.35%;
+        margin: 0% 0% 2.35% 0%;
     }
 
     .subtituloPacotes {
@@ -1002,7 +1010,7 @@ footer hr {
     }
 
     .comentario .comentarioDesktop p {
-        font-size: 1rem;
+        font-size: var(--fonte1r);
     }
 
     .aspasComentario {
@@ -1127,7 +1135,7 @@ footer hr {
 
     .coluna p {
         font-size: .875rem;
-        color: #7E8492;
+        color: var(--cinza);
     }
 
     .coluna h6 {
