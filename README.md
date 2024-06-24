@@ -35,26 +35,16 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ## Download
 
-Você pode [download] (https://code.visualstudio.com/download) a ultima versão do Vscode, recomendavél também o uso do Github Desktop
-## Emailware
+Você pode baixar o vscode: (https://code.visualstudio.com/download). recomendavél também o uso do Github Desktop
 
-Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
+## Creditos
 
-## Credits
+Esse site foi feito com
 
-This software uses the following open source packages:
-
-- [Electron](http://electron.atom.io/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/)
-
-## Related
-
-[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
+- [Figma](https://www.figma.com/login)
+- [Vscode](https://code.visualstudio.com/)
+- [Github](https://github.com/)
+- [Github Desktop](https://desktop.github.com/)
 
 ## Support
 
