@@ -48,10 +48,10 @@ Esse site foi feito com
 
 ## Licença
 
-MIT
+CTW
 
 ---
 
 > [projeto-coca.vercel.app](https://projeto-coca.vercel.app/)&nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
+> GitHub [@mateusbosquetti](https://github.com/mateusbosquetti)&nbsp;&middot;&nbsp;
+> Instagram [@mateus.bosquetti](https://www.instagram.com/mateus.bosquetti/)
