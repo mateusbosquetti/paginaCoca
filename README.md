@@ -30,7 +30,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 ```
 
 > **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+> Ao extrair o .zip, entre na pasta extraída e selecione a que tem dentro para abrir no vscode, se você abrir a pasta pai, o css não carregará, devido ao diretório estar errado.
 
 
 ## Download
