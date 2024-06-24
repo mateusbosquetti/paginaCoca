@@ -19,7 +19,7 @@ Meu Projeto Programação WEB e Mobile
 
 ## Como Usar
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+Para clonar essa aplicação, você vai precisar do Vscode(https://code.visualstudio.com/) Segue abaixo o passo a passo:
 
 ```bash
 #Baixe o projeto como .zip
