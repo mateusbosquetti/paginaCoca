@@ -11,7 +11,7 @@
     --cinza: #7E8492;
     --azul: #0258F8;
     --fonte1r: 1rem;
-  }
+}
 
 .headerAzul {
     background-color: var(--azul);
@@ -65,7 +65,8 @@
 }
 
 .retanguloCircularAzul {
-    background-color: var(--azul);;
+    background-color: var(--azul);
+    ;
     color: #fff;
     border-radius: 25px;
     padding-top: 4.5%;
@@ -78,7 +79,8 @@
 .retanguloCircularCinza {
     border-radius: 25px;
     border: solid #F5F5F5 1px;
-    color: var(--azul);;
+    color: var(--azul);
+    ;
     padding: 3.5%;
     margin-right: 50%;
     margin-top: 5.5%;
@@ -180,7 +182,8 @@ hr {
 }
 
 .retanguloCircularAzulMenor {
-    background-color: var(--azul);;
+    background-color: var(--azul);
+    ;
     color: #fff;
     border-radius: 30px;
     padding-top: 5%;
@@ -318,7 +321,8 @@ INICIO DA SECAO DE PACOTES  */
 }
 
 .retanguloCircularAzulMuitoMenor {
-    background-color: var(--azul);;
+    background-color: var(--azul);
+    ;
     text-align: center;
     border-radius: 6.25rem;
     padding: 2% 0%;
@@ -417,7 +421,8 @@ INICIO DA SECAO DE PACOTES  */
 
 .bordaAzul {
     border: 1px solid #EDEDED;
-    background-color: var(--azul);;
+    background-color: var(--azul);
+    ;
     border-radius: 16px;
     padding: 40px 24px;
     align-items: flex-start;
@@ -669,7 +674,7 @@ footer hr {
         margin-top: 3.5%;
     }
 
-    .linhaMarcaDagua{
+    .linhaMarcaDagua {
         display: none;
     }
 
@@ -677,7 +682,7 @@ footer hr {
         display: block;
         padding: 0%;
         margin: 0%;
-        padding-left: 30%;
+        padding-left: 50%;
     }
 
     .marcaDaguaDesktop {
@@ -720,7 +725,7 @@ footer hr {
     .headerDesktop .retanguloCircularAzul {
         padding: 0% 3%;
         border-radius: 100px;
-        margin: 0% 1% 0% 0%;
+        margin: 0% 3.5% 0% 0%;
         text-align: center;
         align-content: center;
         justify-content: center;
@@ -737,8 +742,7 @@ footer hr {
     .titulo1 {
         font-size: 4.625rem;
         text-transform: uppercase;
-        padding-bottom: 2%;
-        padding-top: 5%;
+        padding-bottom: 7.5%;
     }
 
     span {
@@ -755,6 +759,7 @@ footer hr {
     .duasPartes {
         display: flex;
         justify-content: space-between;
+        align-items: end;
     }
 
     .retangulos2 {
@@ -778,13 +783,13 @@ footer hr {
     }
 
     .parteEsquerda {
-        max-width: 800px;
+        width: 60%;
     }
 
     .parteDireita {
         padding-top: 4%;
         margin: 0%;
-        width: 800px;
+        width: 40%;
     }
 
     .paises {
@@ -795,13 +800,10 @@ footer hr {
         display: flex;
         align-items: center;
         white-space: nowrap;
-        margin-top: 30%;
-        display: flex;
-        margin-top: 4.5%;
-    }
-
-    .paises-2 h4 {
-        padding-bottom: 10%;
+        margin-top: 25%;
+        margin-right: 5%;
+        justify-content: end;
+        align-items: end;
     }
 
     .imgPaises2 {
@@ -809,7 +811,6 @@ footer hr {
     }
 
     .paises-2 .retanguloCircularCinza2 {
-        margin-bottom: 4.5%;
         text-align: center;
         align-items: center;
         padding: 1.5% 1% 1% 0.5%;
@@ -826,7 +827,7 @@ footer hr {
     }
 
     .marcaDaguaDesktop {
-        display:flex;
+        display: flex;
     }
 
     .imagemMaior {
@@ -1150,11 +1151,7 @@ footer hr {
 
 }
 
-@media (max-width: 1040px) {
-    .retanguloCircularCinza2 {
-        display: none;
-    }
-}
+
 
 @media (min-width: 1920px) {
 
