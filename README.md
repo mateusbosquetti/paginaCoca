@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-![Logo da Minha Aplicação](style/img/weg.png)
+#Meu Projeto Programação WEB e Mobile
   <br>
   Markdownify
   <br>
