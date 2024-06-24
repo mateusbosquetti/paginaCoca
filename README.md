@@ -23,7 +23,7 @@ Para clonar essa aplicação, você vai precisar do Vscode(https://code.visualst
 
 ```bash
 #Baixe o projeto como .zip
-#Estraia o projeto
+#Extraia o projeto
 #Abra seu Vscode
 #Selecione a pasta do projeto extraído
 #Execute o index.html
