@@ -35,8 +35,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ## Download
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
-
+Você pode [download] (https://code.visualstudio.com/download) a ultima versão do Vscode, recomendavél também o uso do Github Desktop
 ## Emailware
 
 Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
