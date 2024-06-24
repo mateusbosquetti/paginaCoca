@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://www.weg.net/institutional/BR/pt/"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+ <img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
 	https://www.weg.net/institutional/BR/pt/
   <br>
   Markdownify
