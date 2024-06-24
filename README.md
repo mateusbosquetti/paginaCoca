@@ -37,6 +37,6 @@ CTW
 
 ---
 
-> [projeto-coca.vercel.app](https://projeto-coca.vercel.app/)&nbsp;&middot;&nbsp;
+> Site [projeto-coca.vercel.app](https://projeto-coca.vercel.app/)&nbsp;&middot;&nbsp;
 > GitHub [@mateusbosquetti](https://github.com/mateusbosquetti)&nbsp;&middot;&nbsp;
 > Instagram [@mateus.bosquetti](https://www.instagram.com/mateus.bosquetti/)
