@@ -30,7 +30,7 @@ Esse site foi feito com
 - [Figma](https://www.figma.com/login)
 - [Vscode](https://code.visualstudio.com/)
 - [Github](https://github.com/)
-- [Github Desktop](https://desktop.github.com/)
+- [Vercel](https://vercel.com/)
 
 ## Licença
 CTW
