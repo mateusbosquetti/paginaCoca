@@ -261,6 +261,7 @@ hr {
     background: #212121;
     padding: 8%;
     margin-bottom: 7%;
+    z-index: 10;
 }
 
 .tituloDoArtigoPreto {
@@ -663,6 +664,17 @@ footer hr {
     display: none;
 }
 
+.elipseVerde {
+    display: none;
+}
+
+.elipseAzul {
+    display: none;
+}
+
+.elipseAmarela {
+    display: none;
+}
 
 @media (min-width: 900px) {
 
@@ -672,6 +684,7 @@ footer hr {
 
     .linha {
         margin-top: 3.5%;
+
     }
 
     .linhaMarcaDagua {
@@ -1038,7 +1051,6 @@ footer hr {
         align-items: baseline;
     }
 
-
     .setasDuplas {
         display: none;
     }
@@ -1090,12 +1102,13 @@ footer hr {
     .redesSociaisDesktop {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         margin: 0% 5%;
     }
 
     .copyright {
         text-align: end;
-        margin-left: 27.5%;
+        margin-left: 30%;
     }
 
     footer {
@@ -1151,8 +1164,6 @@ footer hr {
 
 }
 
-
-
 @media (min-width: 1920px) {
 
     .headerDesktopDiv1 {
@@ -1171,4 +1182,62 @@ footer hr {
         width: 20%;
     }
 
+}
+
+@media (min-width: 1920px) and (max-width: 1920px) {
+    .elipseVerde {
+        display: flex;
+        height: 75px;
+        position: absolute;
+        top: 4780px;
+        left: 250px;
+        z-index: 1;
+    }
+
+    .elipseAzul {
+        display: flex;
+        height: 90px;
+        position: absolute;
+        top: 3650px;
+        left: 75px;
+        z-index: 1;
+    }
+
+    .elipseAmarela {
+        display: flex;
+        height: 90px;
+        position: absolute;
+        top: 4160px;
+        left: 1530px;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1440px) {
+    .elipseVerde {
+        display: flex;
+        height: 75px;
+        position: absolute;
+        top: 4045px;
+        left: 100px;
+        z-index: 1;
+    }
+
+    .elipseAzul {
+        display: flex;
+        height: 90px;
+        position: absolute;
+        top: 3080px;
+        left: 50px;
+        z-index: 1;
+    }
+
+    .elipseAmarela {
+        display: flex;
+        height: 90px;
+        position: absolute;
+        top: 3570px;
+        left: 1150px;
+        z-index: 1;
+    }
 }
