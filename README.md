@@ -22,17 +22,11 @@ Meu Projeto Programação WEB e Mobile
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
-
-# Go into the repository
-$ cd electron-markdownify
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
+#Baixe o projeto como .zip
+#Estraia o projeto
+#Abra seu Vscode
+#Selecione a pasta do projeto extraído
+#Execute o index.html
 ```
 
 > **Note**
