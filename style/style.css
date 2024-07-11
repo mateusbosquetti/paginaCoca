@@ -13,7 +13,7 @@
     --fonte1r: 1rem;
 }
 
-.headerAzul {
+.headerTop {
     background-color: var(--azul);
     color: #fff;
     font-size: 0.75rem;
@@ -23,40 +23,40 @@
     margin-bottom: 0.6%;
 }
 
-.imagemHeader {
+.headerImg {
     display: flex;
     padding-left: 5%;
 }
 
-.barras4 {
+.expansiveMenuIcon {
     margin-left: 55%;
     margin-top: 3.5%;
 }
 
-.SecaoComMargem {
+.section-margin {
     padding: 0%;
     margin-left: 5%;
     margin-right: 2.5%;
 }
 
-.titulo1 {
+.mainTittle {
     padding-right: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
     font-size: 205%;
 }
 
-.pCinza {
+.pGray {
     color: var(--cinza);
     font-size: var(--fonte1r);
 }
 
-.parteEsquerda .pCinza {
+.leftTittleDivision .pGray {
     margin-right: 2%;
     font-size: var(--fonte1r);
 }
 
-.pCinzaMenor {
+.pSmallGray {
     color: var(--cinza);
     font-size: .8438rem;
     margin-right: 20%;
@@ -64,7 +64,7 @@
     line-height: 150%;
 }
 
-.retanguloCircularAzul {
+.blueContent {
     background-color: var(--azul);
     ;
     color: #fff;
@@ -76,7 +76,7 @@
     text-align: center;
 }
 
-.retanguloCircularCinza {
+.grayContent {
     border-radius: 25px;
     border: solid #F5F5F5 1px;
     color: var(--azul);
@@ -91,25 +91,25 @@
     gap: 10px;
 }
 
-.disponivelEm {
+.availableIn {
     margin-top: 10%;
 }
 
-.linhaPaises {
+.countryLine {
     display: flex;
     margin-bottom: 1%;
 }
 
-.paises {
+.countrys {
     display: flex;
     margin-top: 4.5%;
 }
 
-.pais {
+.flag {
     padding-left: 10%;
 }
 
-.retanguloCircularCinza2 {
+.grayContent-2 {
     border-radius: 25px;
     border: solid #F5F5F5 1px;
     color: black;
@@ -121,13 +121,13 @@
     height: 20px;
 }
 
-.linhaMarcaDagua {
+.waterMarkLine {
     display: flex;
     margin-top: 3%;
     padding-bottom: 5%;
 }
 
-.marcaDagua {
+.waterMark {
     margin-top: 10%;
     margin-left: 60%;
     margin-right: 25%;
@@ -140,7 +140,7 @@ hr {
 
 }
 
-.linha {
+.hrLine {
     margin-top: 10%;
     opacity: 0.3;
 }
@@ -149,7 +149,7 @@ hr {
     margin-top: 5%;
 }
 
-.imagemMaior {
+.bigImg {
     position: relative;
     top: 0px;
     left: 0px;
@@ -157,13 +157,13 @@ hr {
     width: 97%;
 }
 
-.parcerias {
+.partners {
     background-color: #FAFBFA;
     margin: 10% 0% 0% 0%;
     padding: 0% 5%;
 }
 
-.parcerias h1 {
+.partners h1 {
     padding-top: 15%;
     padding-right: 5%;
     padding-left: 5%;
@@ -172,16 +172,16 @@ hr {
     font-size: 1.75rem;
 }
 
-.parceiriaLinha {
+.partnersLine {
     padding-left: 14%;
     padding-bottom: 11%;
 }
 
-.imgParceria {
+.partnersImg {
     padding: 1.5%;
 }
 
-.retanguloCircularAzulMenor {
+.smallBlueContent {
     background-color: var(--azul);
     ;
     color: #fff;
@@ -195,33 +195,33 @@ hr {
 
 }
 
-.tituloAntesArtigos {
+.tittleLeftArticle {
     margin-top: 15%;
     margin-bottom: 5%;
     font-size: 2.25rem;
 }
 
-.subtituloAntesArtigos {
+.subtittleLeftArticle {
     font-size: var(--fonte1r);
     color: var(--cinza);
     margin-right: 5%;
     line-height: 26px;
 }
 
-.artigos {
+.articles {
     margin-top: 12.5%;
     align-content: center;
     margin-right: 3.5%;
 
 }
 
-.tituloArtigo {
+.tittleArticle {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.linhaArtigo {
+.hrArticle {
     margin: 17.5px 0;
     opacity: 0.2;
 }
@@ -229,34 +229,34 @@ hr {
 /* SEÇÃO PRETA */
 /* cima direita baixo esquerda */
 
-.SecaoPreta {
+.section-black {
     background-color: #1A1A1A;
     margin-top: 10%;
     padding: 13.5% 5.5% 13.5% 5.5%;
 }
 
-.tituloSecaoPreta {
+.tittleBlackSection {
     font-size: 2.25rem;
     color: #fff;
     margin-bottom: 10%;
 }
 
-.subtituloSecaoPreta {
+.subtittleBlackSection {
     color: var(--cinza);
     font-size: var(--fonte1r);
     line-height: 162.5%;
     margin-right: 5%;
 }
 
-.ArtigoPreto .subtituloSecaoPreta {
+.blackArticle .subtittleBlackSection {
     margin-right: 0%;
 }
 
-.ArtigosPretos {
+.blackArticles {
     margin-top: 15%;
 }
 
-.ArtigoPreto {
+.blackArticle {
     border-radius: 16px;
     background: #212121;
     padding: 8%;
@@ -264,7 +264,7 @@ hr {
     z-index: 10;
 }
 
-.tituloDoArtigoPreto {
+.blackArticleTittle {
     font-size: 1.5rem;
     letter-spacing: -0.24px;
     color: #fff;
@@ -275,31 +275,34 @@ hr {
 /* FIM DA SEÇÃO PRETA
 INICIO DA SECAO DE PACOTES  */
 
-.SecaoPacotes {
+.gray-color {
+    background-color: #FAFBFA;
+}
+
+.section-gray {
     margin: 0 20px;
 }
 
-.tituloPacotes {
+.tittlePayment {
     text-align: center;
     font-size: 2.25rem;
     letter-spacing: -0.36px;
-    margin: 8% 0%;
     padding-top: 8%;
 }
 
-.subtituloPacotes {
+.subtittlePayment {
     color: var(--cinza);
     font-size: var(--fonte1r);
     text-align: center;
     line-height: 162.5%;
 }
 
-.SecaoPacotes .opcaoPagamento {
+.section-gray .payment {
     margin-left: 0%;
     margin-right: 0.7%;
 }
 
-.opcaoMensalAnual {
+.monthlyYearly {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -310,18 +313,18 @@ INICIO DA SECAO DE PACOTES  */
     justify-content: center;
 }
 
-.mensal {
+.monthly {
     font-size: 1.125rem;
     line-height: 120%;
 }
 
-.anual {
+.yearly {
     font-size: 1.125rem;
     line-height: 120%;
     margin-left: 7.5%;
 }
 
-.retanguloCircularAzulMuitoMenor {
+.moreSmallBlueContent {
     background-color: var(--azul);
     ;
     text-align: center;
@@ -332,18 +335,15 @@ INICIO DA SECAO DE PACOTES  */
     font-size: .875rem;
 }
 
-.flecha {
+.arrow {
     margin: 1% 38% 0% 62%;
     width: 33.133px;
     height: 40.194px;
     position: absolute;
 }
 
-.corDiferente {
-    background-color: #FAFBFA;
-}
 
-.bordaCinza {
+.grayBorder {
     border: 1px solid #EDEDED;
     background-color: #FFF;
     padding: 40px 24px;
@@ -352,7 +352,7 @@ INICIO DA SECAO DE PACOTES  */
     margin-bottom: 10%;
 }
 
-.bordaCinza .iconeBordaCinza {
+.grayBorder .grayBorderIcon {
     border-radius: 100px;
     background-color: #F5F5F5;
     display: flex;
@@ -364,55 +364,55 @@ INICIO DA SECAO DE PACOTES  */
     margin-bottom: 4.5%;
 }
 
-.bordaCinza .tituloDosPacotes {
+.grayBorder .packageTittle {
     font-size: 1.375rem;
     margin-bottom: 3.5%;
     color: black;
 }
 
-.bordaCinza .subtituloDosPacotes {
+.grayBorder .packageSubtittle {
     color: var(--cinza);
     font-size: .9688rem;
     margin-bottom: 7.5%;
 }
 
-.mesmaLinha {
+.sameLine {
     display: flex;
     align-items: baseline;
     margin-bottom: 5%;
 }
 
-.preco {
+.price {
     font-size: 3.125rem;
     margin-right: 6%;
 }
 
-.bordaCinza .periodoPreco {
+.grayBorder .pricePeriod {
     color: var(--cinza);
     font-size: var(--fonte1r);
 }
 
-.listaPacotes {
+.packageList {
     font-size: var(--fonte1r);
     line-height: 150%;
     margin-bottom: 5%;
 }
 
-.mesmaLinha2 {
+.sameLine2 {
     display: flex;
     align-items: center;
     margin-bottom: 5%;
 }
 
-.mesmaLinha2 img {
+.sameLine2 img {
     margin-right: 2%;
 }
 
-.mesmaLinha2 h6 {
+.sameLine2 h6 {
     font-size: .9375rem;
 }
 
-.bordaCinza .botaoBorda {
+.grayBorder .borderButton {
     text-align: center;
     border: solid 1px #EDEDED;
     border-radius: 100px;
@@ -420,7 +420,7 @@ INICIO DA SECAO DE PACOTES  */
     margin: 10% 20% 0% 20%;
 }
 
-.bordaAzul {
+.blueBorder {
     border: 1px solid #EDEDED;
     background-color: var(--azul);
     ;
@@ -431,7 +431,7 @@ INICIO DA SECAO DE PACOTES  */
     margin-bottom: 10%;
 }
 
-.bordaAzul .iconeBordaCinza {
+.blueBorder .grayBorderIcon {
     border-radius: 100px;
     background-color: #fff;
     display: flex;
@@ -442,21 +442,21 @@ INICIO DA SECAO DE PACOTES  */
 
 }
 
-.bordaAzul .tituloDosPacotes {
+.blueBorder .packageTittle {
     font-size: 1.375rem;
     margin-bottom: 3.5%;
 }
 
-.bordaAzul .subtituloDosPacotes {
+.blueBorder .packageSubtittle {
     font-size: .9688rem;
     margin-bottom: 7.5%;
 }
 
-.bordaAzul {
+.blueBorder {
     color: #FFF;
 }
 
-.bordaAzul .botaoBorda {
+.blueBorder .borderButton {
     color: black;
     text-align: center;
     background-color: #FFF;
@@ -465,14 +465,14 @@ INICIO DA SECAO DE PACOTES  */
     margin: 10% 20% 0% 20%;
 }
 
-.icones2 {
+.icon2 {
     display: flex;
     color: black;
     justify-content: space-between;
     margin-bottom: 4.5%;
 }
 
-.iconeSecundario {
+.secundaryIcon {
     border-radius: 100px;
     background-color: #fff;
     display: flex;
@@ -482,36 +482,36 @@ INICIO DA SECAO DE PACOTES  */
     margin-left: 55%;
 }
 
-/* comentario */
+/* comment */
 
-.comentario {
+.comment {
     margin-top: 30%;
     margin: 0% 5%;
 }
 
-.comentario h3 {
+.comment h3 {
     font-size: 2rem;
     margin-bottom: 5%;
     line-height: 120%;
     letter-spacing: -0.32px;
 }
 
-.comentario .pCinza {
+.comment .pGray {
     margin-right: 2%;
 }
 
-.aspasComentario {
+.commentAspas {
     display: flex;
     margin-top: 7.5%;
 }
 
-.aspasComentario h4 {
+.commentAspas h4 {
     font-size: 1.5rem;
     margin-left: 3%;
     margin-right: 10%;
 }
 
-.subtituloComentario {
+.commentSubtittle {
     font-size: var(--fonte1r);
     color: var(--cinza);
     margin-left: 13.6%;
@@ -519,7 +519,7 @@ INICIO DA SECAO DE PACOTES  */
     margin-top: 7%;
 }
 
-.perfilComentado {
+.commentedPerfil {
     display: inline-flex;
     align-items: center;
     gap: 16px;
@@ -527,7 +527,7 @@ INICIO DA SECAO DE PACOTES  */
     margin-left: 2%;
 }
 
-.perfilComentadoDentro {
+.commentedPerfilInside {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -535,19 +535,19 @@ INICIO DA SECAO DE PACOTES  */
     gap: 4px;
 }
 
-.perfilComentado img {
+.commentedPerfil img {
     border-radius: 100px;
 }
 
-.perfilComentadoDentro h5 {
+.commentedPerfilInside h5 {
     font-size: var(--fonte1r);
 }
 
-.perfilComentadoDentro p {
+.commentedPerfilInside p {
     color: var(--cinza);
 }
 
-.setasDuplas {
+.doubleArrows {
     display: flex;
     align-items: center;
     margin-top: 10%;
@@ -563,14 +563,14 @@ footer {
     padding-bottom: 10%;
 }
 
-.imagemFooter {
+.footerImg {
     margin: 10% 5%;
     background-image: url(/style/img/imagemFooter.png);
     padding: 10% 2%;
     background-size: cover;
 }
 
-footer .botaoBorda {
+footer .borderButton {
     text-align: center;
     border: solid 1px #EDEDED;
     border-radius: 100px;
@@ -580,23 +580,23 @@ footer .botaoBorda {
     color: black;
 }
 
-.imagemFooter h1 {
+.footerImg h1 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 8%;
 }
 
-.imagemFooter P {
+.footerImg P {
     font-size: var(--fonte1r);
     text-align: center;
     padding: 0 2%;
 }
 
-.logoPreto {
+.blackLogo {
     margin: 20% 0% 5% 5%
 }
 
-.redesSociais {
+.socialMedia {
     display: flex;
     text-align: center;
     align-content: center;
@@ -604,7 +604,7 @@ footer .botaoBorda {
     gap: 5%;
 }
 
-.pMargem {
+.pMargin {
     margin: 0 5%;
 }
 
@@ -613,11 +613,11 @@ footer hr {
     border: solid 1px var(--cinza);
 }
 
-.redesSociais {
+.socialMedia {
     margin: 0 25%;
 }
 
-.termos {
+.term {
     font-size: .875rem;
     line-height: 150%;
     display: flex;
@@ -630,7 +630,7 @@ footer hr {
     text-align: center;
 }
 
-.paises-2 {
+.countryLine-2 {
     display: none;
 }
 
@@ -644,35 +644,35 @@ footer hr {
     display: none;
 }
 
-.imagemMaiorDesktop {
+.bigImgDesktop {
     display: none;
 }
 
-.parceiriaLinhaDesktop {
+.partnersLineDesktop {
     display: none;
 }
 
-.setasDuplasDesktop {
+.doubleArrowsDesktop {
     display: none;
 }
 
-.footerDir {
+.footerRight {
     display: none;
 }
 
-.linhaMarcaDaguaDesktop {
+.waterMarkLineDesktop {
     display: none;
 }
 
-.elipseVerde {
+.elipseGreen {
     display: none;
 }
 
-.elipseAzul {
+.elipseBlue {
     display: none;
 }
 
-.elipseAmarela {
+.elipseYellow {
     display: none;
 }
 
@@ -682,26 +682,21 @@ footer hr {
         margin: 0%;
     }
 
-    .linha {
+    .hrLine {
         margin-top: 3.5%;
 
     }
 
-    .linhaMarcaDagua {
+    .waterMarkLine {
         display: none;
     }
 
-    .linhaMarcaDaguaDesktop {
+    .waterMarkLineDesktop {
         display: block;
         padding: 0%;
         margin: 0%;
         padding-left: 50%;
     }
-
-    .marcaDaguaDesktop {
-        padding-left: 30%;
-    }
-
 
     .pDesktop {
         display: flex;
@@ -709,15 +704,15 @@ footer hr {
         text-align: center;
     }
 
-    .pCelular {
+    .pMobile {
         display: none;
     }
 
-    .headerAzul {
+    .headerTop {
         padding: 0.5% 0%;
     }
 
-    .Contato {
+    .contact {
         white-space: nowrap;
     }
 
@@ -727,7 +722,7 @@ footer hr {
         justify-content: space-between;
     }
 
-    .headerDesktopDiv1 {
+    .headerDesktopMenu {
         display: flex;
         align-items: center;
         gap: 10%;
@@ -735,7 +730,7 @@ footer hr {
         font-size: var(--fonte1r);
     }
 
-    .headerDesktop .retanguloCircularAzul {
+    .headerDesktop .blueContent {
         padding: 0% 3%;
         border-radius: 100px;
         margin: 0% 3.5% 0% 0%;
@@ -748,11 +743,11 @@ footer hr {
         display: none;
     }
 
-    .barras4 {
+    .expansiveMenuIcon {
         display: none;
     }
 
-    .titulo1 {
+    .mainTittle {
         font-size: 4.625rem;
         text-transform: uppercase;
         padding-bottom: 7.5%;
@@ -762,54 +757,54 @@ footer hr {
         text-decoration: underline;
     }
 
-    .parteEsquerda .pCinza {
+    .leftTittleDivision .pGray {
         font-size: 1.125rem;
         padding-right: 20%;
         line-height: 32px;
         margin-bottom: 4.5%;
     }
 
-    .duasPartes {
+    .tittleDivision {
         display: flex;
         justify-content: space-between;
         align-items: end;
     }
 
-    .retangulos2 {
+    .twoContents {
         display: flex;
         white-space: nowrap;
         width: 100px;
     }
 
-    .retangulos2 .retanguloCircularAzul {
+    .twoContents .blueContent {
         padding: 14% 15%;
     }
 
-    .retangulos2 .retanguloCircularCinza {
+    .twoContents .grayContent {
         padding: 14% 15%;
         align-content: center;
     }
 
-    .paisesTotal {
+    .countryFlags {
         display: none;
         margin: 0%;
     }
 
-    .parteEsquerda {
+    .leftTittleDivision {
         width: 60%;
     }
 
-    .parteDireita {
+    .rightTittleDivision {
         padding-top: 4%;
         margin: 0%;
         width: 40%;
     }
 
-    .paises {
+    .countrys {
         display: none;
     }
 
-    .paises-2 {
+    .countryLine-2 {
         display: flex;
         align-items: center;
         white-space: nowrap;
@@ -819,11 +814,11 @@ footer hr {
         align-items: end;
     }
 
-    .imgPaises2 {
+    .countrys-2 {
         margin-left: 3.5%;
     }
 
-    .paises-2 .retanguloCircularCinza2 {
+    .countryLine-2 .grayContent-2 {
         text-align: center;
         align-items: center;
         padding: 1.5% 1% 1% 0.5%;
@@ -831,7 +826,7 @@ footer hr {
     }
 
 
-    .parteDireita .pCinza {
+    .rightTittleDivision .pGray {
         font-size: 1.125rem;
         line-height: 32px;
         margin-bottom: 4.5%;
@@ -843,132 +838,132 @@ footer hr {
         display: flex;
     }
 
-    .imagemMaior {
+    .bigImg {
         display: none;
     }
 
-    .imagemMaiorDesktop {
+    .bigImgDesktop {
         display: flex;
         position: relative;
         border-radius: 13.5px;
         width: 97%;
     }
 
-    .parceiriaLinhaDesktop {
+    .partnersLineDesktop {
         display: flex;
         justify-content: center;
         padding-bottom: 5%;
         gap: 2%;
     }
 
-    .parceiriaLinha {
+    .partnersLine {
         display: none;
     }
 
-    .parcerias h1 {
+    .partners h1 {
         font-size: 2.5rem;
         padding: 7% 0% 5% 0%;
     }
 
-    .SecaoArtigosDesktop {
+    .articleDivision {
         display: flex;
         margin: 0%;
         padding: 0%;
     }
 
-    .ArtigosDesktopEsq {
+    .leftArticleDivision {
         max-width: 40%;
     }
 
-    .ArtigosDesktopEsq h1 {
+    .leftArticleDivision h1 {
         font-size: 3.5rem;
     }
 
-    .ArtigosDesktopEsq p {
+    .leftArticleDivision p {
         font-size: 1.125rem;
         margin-right: 15%;
     }
 
-    .retanguloCircularAzulMenor {
+    .smallBlueContent {
         font-size: var(--fonte1r);
         padding: 3.5% 0%;
         max-width: 27.5%;
     }
 
-    .SecaoComMargem .artigos {
+    .section-margin .articles {
         margin-top: 6%;
         margin-left: 10%;
         max-width: 100%;
     }
 
-    .SecaoComMargem .artigos h4 {
+    .section-margin .articles h4 {
         font-size: 1.5rem;
         margin: 1% 0%;
     }
 
-    .SecaoComMargem .artigos p {
+    .section-margin .articles p {
         font-size: 1.125rem;
         margin: 3% 27.5% 0% 0%;
     }
 
-    .SecaoPreta h1 {
+    .section-black h1 {
         font-size: 3.5rem;
         margin-right: 15%;
         margin-bottom: 4.5%;
     }
 
-    .subtituloSecaoPreta {
+    .subtittleBlackSection {
         font-size: var(--fonte1r);
         line-height: 162.5%;
     }
 
 
-    .ArtigoPretoDeskEsq {
+    .blackArticlesDeskLeft {
         display: flex;
         gap: 2.75%;
     }
 
-    .ArtigosPretos {
+    .blackArticles {
         margin-top: 6.5%;
     }
 
-    .ArtigoPreto {
+    .blackArticle {
         padding: 2% 2.5% 2% 2%;
         max-width: 37%;
         margin-bottom: 2.75%;
     }
 
-    .tituloDoArtigoPreto {
+    .blackArticleTittle {
         margin: 3.5% 29% 3.5% 0%;
     }
 
-    .antesArtigosPretos p {
+    .beforeBlackSection p {
         margin-right: 34%;
         font-size: 1.125rem;
     }
 
-    .tituloPacotes {
+    .tittlePayment {
         font-size: 3.5rem;
         margin: 0% 0% 2.35% 0%;
     }
 
-    .subtituloPacotes {
+    .subtittlePayment {
         font-size: 1.125rem;
         margin: 0% 24%;
     }
 
-    .opcaoMensalAnual {
+    .monthlyYearly {
         margin: 3% 0% 0% 0%;
         justify-content: center;
         font-size: 1.125rem;
     }
 
-    .anual {
+    .yearly {
         margin: 0%;
         padding-left: 2%;
     }
 
-    .retanguloCircularAzulMuitoMenor {
+    .moreSmallBlueContent {
         margin: 0%;
         margin-bottom: 7.5%;
         justify-content: center;
@@ -979,91 +974,91 @@ footer hr {
         margin: 1.25% 46.75% 3.5% 46.75%
     }
 
-    .flecha {
+    .arrow {
         margin: 1% 40% 0% 53%;
         width: 33.133px;
         height: 40.194px;
         position: absolute;
     }
 
-    .pacotes3Desktop {
+    .package3Desktop {
         display: flex;
         justify-content: center;
         gap: 2%;
     }
 
-    .bordaAzul {
+    .blueBorder {
         width: 26%;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
 
-    .bordaCinza {
+    .grayBorder {
         width: 26%;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
 
-    .comentario {
+    .comment {
         margin: 0%;
     }
 
-    .comentario h3 {
+    .comment h3 {
         margin: 0%;
     }
 
-    .comentarioDesktop {
+    .commentDesktop {
         display: flex;
         justify-content: space-between;
         margin: 6.5% 5% 0% 5%;
     }
 
-    .comentarioDesktop h3 {
+    .commentDesktop h3 {
         font-size: 3.5rem;
         width: 50%;
     }
 
-    .comentarioDesktop .pCinza {
+    .commentDesktop .pGray {
         width: 30%;
     }
 
-    .comentario .comentarioDesktop p {
+    .comment .commentDesktop p {
         font-size: var(--fonte1r);
     }
 
-    .aspasComentario {
+    .commentAspas {
         margin-left: 12.5%;
         width: 36%;
         gap: 5%;
     }
 
-    .aspasComentario h4 {
+    .commentAspas h4 {
         margin: 0%;
         font-size: 1.5rem;
     }
 
-    .subtituloComentario {
+    .commentSubtittle {
         margin: 2% 22.9% 0% 16.75%;
         font-size: 1.5rem;
 
     }
 
-    .perfilComentadoDesktop {
+    .commentedPerfilDesktop {
         display: flex;
         margin: 0% 27% 0% 16%;
         justify-content: space-between;
         align-items: baseline;
     }
 
-    .setasDuplas {
+    .doubleArrows {
         display: none;
     }
 
-    .setasDuplasDesktop {
+    .doubleArrowsDesktop {
         display: flex;
         gap: 35%;
         align-items: center;
     }
 
-    .imagemFooter {
+    .footerImg {
         background-image: url(/style/img/imagemFooterDesktop\ .png);
         margin: 5% 5%;
         background-size: cover;
@@ -1071,13 +1066,13 @@ footer hr {
         border-radius: 10px;
     }
 
-    .imagemFooter h1 {
+    .footerImg h1 {
         font-size: 3.5rem;
         text-align: center;
         margin: 3.25% 5%;
     }
 
-    footer .botaoBorda {
+    footer .borderButton {
         padding: 0%;
         align-items: center;
         margin: 5% 42% 0% 42%;
@@ -1088,20 +1083,20 @@ footer hr {
         margin: 2.5% 5% 0% 5%;
     }
 
-    .redesSociais {
+    .socialMedia {
         gap: 30%;
         justify-content: left;
         margin: 0%;
     }
 
-    .termos {
+    .term {
         justify-content: left;
         gap: 20%;
         margin-left: 12.5%;
         white-space: nowrap;
     }
 
-    .redesSociaisDesktop {
+    .socialMediaDesktop {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -1124,19 +1119,19 @@ footer hr {
 
     }
 
-    .footerEsq img {
+    .footerLeft img {
         margin: 0%;
     }
 
-    .footerEsq .pMargem {
+    .footerLeft .pMargin {
         margin: 15% 0% 0% 0%;
     }
 
-    .footerEsq {
+    .footerLeft {
         width: 29%;
     }
 
-    .footerDir {
+    .footerRight {
         display: flex;
         width: 50%;
         gap: 20%;
@@ -1145,22 +1140,22 @@ footer hr {
         justify-content: end;
     }
 
-    .coluna {
+    .column {
         line-height: 250%;
     }
 
-    .coluna p {
+    .column p {
         font-size: .875rem;
         color: var(--cinza);
     }
 
-    .coluna h6 {
+    .column h6 {
         font-size: .875rem;
         color: white;
         margin-bottom: 10%;
     }
 
-    .imgParceriaDesktop {
+    .partnersImgDesktop {
         width: 17%;
     }
 
@@ -1168,7 +1163,7 @@ footer hr {
 
 @media (min-width: 1920px) {
 
-    .headerDesktopDiv1 {
+    .headerDesktopMenu {
         font-size: 1.375rem;
     }
 
@@ -1176,18 +1171,18 @@ footer hr {
         font-size: .75rem;
     }
 
-    .bordaCinza {
+    .grayBorder {
         width: 22%;
     }
 
-    .bordaAzul {
+    .blueBorder {
         width: 20%;
     }
 
 }
 
 @media (min-width: 1920px) and (max-width: 1920px) {
-    .elipseVerde {
+    .elipseGreen {
         display: flex;
         height: 75px;
         position: absolute;
@@ -1196,7 +1191,7 @@ footer hr {
         z-index: 1;
     }
 
-    .elipseAzul {
+    .elipseBlue {
         display: flex;
         height: 90px;
         position: absolute;
@@ -1205,7 +1200,7 @@ footer hr {
         z-index: 1;
     }
 
-    .elipseAmarela {
+    .elipseYellow {
         display: flex;
         height: 90px;
         position: absolute;
@@ -1216,7 +1211,7 @@ footer hr {
 }
 
 @media (min-width: 1440px) and (max-width: 1440px) {
-    .elipseVerde {
+    .elipseGreen {
         display: flex;
         height: 75px;
         position: absolute;
@@ -1225,7 +1220,7 @@ footer hr {
         z-index: 1;
     }
 
-    .elipseAzul {
+    .elipseBlue {
         display: flex;
         height: 90px;
         position: absolute;
@@ -1234,7 +1229,7 @@ footer hr {
         z-index: 1;
     }
 
-    .elipseAmarela {
+    .elipseYellow {
         display: flex;
         height: 90px;
         position: absolute;
